@@ -18,6 +18,8 @@
 		ABAB4FD11EA755F3009FFC7B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAB4FD01EA755F3009FFC7B /* QuartzCore.framework */; };
 		ABAB4FD31EA75603009FFC7B /* NinevehGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAB4FD21EA75603009FFC7B /* NinevehGL.framework */; };
 		ABAB4FD51EA75671009FFC7B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAB4FD41EA75671009FFC7B /* OpenGLES.framework */; };
+		ABAB4FDA1EA764EB009FFC7B /* back_flip_to_uppercut.dae in Resources */ = {isa = PBXBuildFile; fileRef = ABAB4FD91EA764EB009FFC7B /* back_flip_to_uppercut.dae */; };
+		ABAB4FDC1EA76515009FFC7B /* Cartoon_Female_capris_2k_diffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = ABAB4FDB1EA76515009FFC7B /* Cartoon_Female_capris_2k_diffuse.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		ABAB4FD01EA755F3009FFC7B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		ABAB4FD21EA75603009FFC7B /* NinevehGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NinevehGL.framework; path = "../../../../Library/Developer/Xcode/DerivedData/3DRender-grgmoqcoevuvungtppkrxqgtrjsa/Build/Products/Debug-iphonesimulator/NinevehGL/NinevehGL.framework"; sourceTree = "<group>"; };
 		ABAB4FD41EA75671009FFC7B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		ABAB4FD91EA764EB009FFC7B /* back_flip_to_uppercut.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; name = back_flip_to_uppercut.dae; path = Resources/back_flip_to_uppercut.dae; sourceTree = "<group>"; };
+		ABAB4FDB1EA76515009FFC7B /* Cartoon_Female_capris_2k_diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cartoon_Female_capris_2k_diffuse.png; path = Resources/textures/Cartoon_Female_capris_2k_diffuse.png; sourceTree = "<group>"; };
 		C98AB734228B966A7AA61C04 /* Pods-3DRender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3DRender.debug.xcconfig"; path = "Pods/Target Support Files/Pods-3DRender/Pods-3DRender.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +122,7 @@
 				ABAB4FB51EA75210009FFC7B /* LaunchScreen.storyboard */,
 				ABAB4FB81EA75210009FFC7B /* Info.plist */,
 				ABAB4FCC1EA754CA009FFC7B /* 3DRender-Bridging-Header.h */,
+				ABAB4FD61EA76499009FFC7B /* Resources */,
 			);
 			path = 3DRender;
 			sourceTree = "<group>";
@@ -129,6 +134,31 @@
 				ABAB4FC31EA75211009FFC7B /* Info.plist */,
 			);
 			path = 3DRenderTests;
+			sourceTree = "<group>";
+		};
+		ABAB4FD61EA76499009FFC7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABAB4FD81EA764D7009FFC7B /* 3D files */,
+				ABAB4FD71EA764CB009FFC7B /* Textures */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ABAB4FD71EA764CB009FFC7B /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				ABAB4FDB1EA76515009FFC7B /* Cartoon_Female_capris_2k_diffuse.png */,
+			);
+			name = Textures;
+			sourceTree = "<group>";
+		};
+		ABAB4FD81EA764D7009FFC7B /* 3D files */ = {
+			isa = PBXGroup;
+			children = (
+				ABAB4FD91EA764EB009FFC7B /* back_flip_to_uppercut.dae */,
+			);
+			name = "3D files";
 			sourceTree = "<group>";
 		};
 		B477A0E42234C961C0A61CE1 /* Pods */ = {
@@ -234,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABAB4FB71EA75210009FFC7B /* LaunchScreen.storyboard in Resources */,
+				ABAB4FDC1EA76515009FFC7B /* Cartoon_Female_capris_2k_diffuse.png in Resources */,
+				ABAB4FDA1EA764EB009FFC7B /* back_flip_to_uppercut.dae in Resources */,
 				ABAB4FB41EA75210009FFC7B /* Assets.xcassets in Resources */,
 				ABAB4FB21EA75210009FFC7B /* Main.storyboard in Resources */,
 			);
