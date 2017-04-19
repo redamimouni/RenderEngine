@@ -1,0 +1,6 @@
+framework module Pods_3DRender {
+  umbrella header "Pods-3DRender-umbrella.h"
+
+  export *
+  module * { export * }
+}

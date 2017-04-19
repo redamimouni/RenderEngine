@@ -1,0 +1,14 @@
+PODS:
+  - NinevehGL (0.9.3):
+    - NinevehGL/Core (= 0.9.3)
+  - NinevehGL/Core (0.9.3)
+
+DEPENDENCIES:
+  - NinevehGL
+
+SPEC CHECKSUMS:
+  NinevehGL: 252d8a31796c76a5130af5104992c20bec37de42
+
+PODFILE CHECKSUM: ad7145dd178923b0f3e7619af8e10dfe5690455d
+
+COCOAPODS: 1.2.1

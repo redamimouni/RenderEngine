@@ -1,0 +1,1133 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010BB73D3C71D0C8F25533A6676AD4AC /* NGLContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D06758D61B88566056F75E50B808F08C /* NGLContext.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		02E2E7B17E66614F3F2A20D65FF25D3C /* NGLSLVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 624729D8272EEC8A3E0D969ECD460643 /* NGLSLVariables.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		054C6B1407E140328C4B2056467A6D31 /* NGLMaterial.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E1A1E2B22B11C9416E6295CF76E0D9 /* NGLMaterial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0678A28C20ACFA8511B4EEEC58FF15C3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127AF9817D5643A8931C103C6ABB5E7D /* OpenGLES.framework */; };
+		0CBBE58F82B7A59374974FDB8DFAC3AF /* NGLShaders.h in Headers */ = {isa = PBXBuildFile; fileRef = E7125F658C28B0C72A15B95A9C169814 /* NGLShaders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		138DCFFEC56228DF0CA86FFE66B9E676 /* NGLES2Textures.m in Sources */ = {isa = PBXBuildFile; fileRef = 596AD8ED7F541F815C40E1C6A73D367E /* NGLES2Textures.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		143AE24D82CFDB17EEF1B4480B3635CB /* NGLEase.h in Headers */ = {isa = PBXBuildFile; fileRef = 597FEC5238A0C8B4D210424245FE7B93 /* NGLEase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14B85FCCC24B65471044F5E493C36615 /* NGLTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F922CA6DCBC1926D3B9DA451487E95 /* NGLTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19A4635C4BD0D5DB48326B24B52900AD /* NGLThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 018743B8CF2177F9A70F3AE5CC2ABC4B /* NGLThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D24D9D6A07236B8062F5E4035D42E43 /* NGLES2Polygon.h in Headers */ = {isa = PBXBuildFile; fileRef = BB868FAFD9AE948FDE58647056902B75 /* NGLES2Polygon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2037C428AD88DED6F50B9687AF01E539 /* NGLCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E5EECB3143FF533C54650D38590A9A3 /* NGLCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2111C618400F2334E004986D17451B11 /* NGLMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E13719D806E14225AD50B35DFA74B66 /* NGLMesh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		221767D40971ED70422B07F4F151C843 /* NGLParserOBJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C92C4F1BE2F1EF3821E8EABDBB8CBD9 /* NGLParserOBJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		222ECABBBFD936EE4CAD1C9F45E769CF /* NGLArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDF0248D0EC533474E4A6E12BC2EC45 /* NGLArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		23D2D5398569D7D0CD06165AC65836EE /* NGLGestures.m in Sources */ = {isa = PBXBuildFile; fileRef = B468AEFB3CB2E6DF56AE56AEDC96847F /* NGLGestures.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		246654EEEFC2101449B29CE02D5A4B25 /* NGLIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC5964A3ED5862526D89F4D7923090B /* NGLIterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		261BE8B2136BAEA17946B8BDB05DDEB4 /* NGLSLConstructor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A1BE3D28E826F06F84B608EE3DC21CB /* NGLSLConstructor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2795D13061E67C839BAC3841C924DF29 /* NGLMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D119F7B629244EA9A58F0A2B6CF597 /* NGLMatrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28289D9759263B642ECE1CDFB8E6C667 /* NGLES2Buffers.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F9E86FA0CB18F804D300A9481AAA3E /* NGLES2Buffers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28EE8AA00C42FD1637C86EFCECA436B4 /* NGLCoreMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = C6BE7020AA749F28D187AC40D71869EC /* NGLCoreMesh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29AE5376438D8AB9FDA263EC325C1CDF /* NGLQuaternion.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFF560788585736276E608A6BC46970 /* NGLQuaternion.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2D3DCE79C177D218C11EBD09978C2656 /* NGLLight.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A95856EA00B0F99CEF89DBD6762D52 /* NGLLight.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		307190EDD97697DA5B63C1B0AD59E42A /* NGLParserDAE.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C371C0EB5EA4A7F9F7671D8BE6F08D /* NGLParserDAE.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		336837EA9537BECF6F0EB956DAC59DCC /* NinevehGL.h in Headers */ = {isa = PBXBuildFile; fileRef = 315F9898FD1C9B4D48701A72A5085719 /* NinevehGL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		356E3292C48F7B16679878AC4D32AC7E /* NGLShaders.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB54D519F669B258AAF7BFE7433540F /* NGLShaders.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3619EF8674E8DE231098A81BB9911B26 /* NGLGroup3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 2206BF312013058B25F248D0F692B0FA /* NGLGroup3D.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36F2135A363925E1A5ED8C433F363071 /* NGLES2Program.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ED221CBBB311F21D4E6FFC1592DB1D7 /* NGLES2Program.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BE8CC97CAF97D116B874D48FA440F14 /* NGLParserImage.h in Headers */ = {isa = PBXBuildFile; fileRef = C611AA4836EF025B9365721E2C5FC5B2 /* NGLParserImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4188EF93B2CBF8EC0C918FFF4BA7F362 /* NGLParserNGL.m in Sources */ = {isa = PBXBuildFile; fileRef = 9392D71BA5DCA68098970BD9AA9114D1 /* NGLParserNGL.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		41AA102EDEA6E3471C1BC5CF5E64FC1E /* NGLFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F4ADD1DD9946A05AEE19FA2CBF64EE1 /* NGLFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		463182D51DEA973574068F981B69E4BE /* NGLCoreEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C675C9DCFB7B85FB1FF8E959AF1FFC7 /* NGLCoreEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4833768BCC718B0DA89DF8343462CC62 /* NGLParserMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF05FE1417726660A5A409DCF289B79 /* NGLParserMesh.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		49F20F4D8067B7E0F389EEF7CDA3FFF5 /* NGLVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B6F5C7C88476F97B6245D6AF7A3B40 /* NGLVector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D26077189BA7D4900D3C6DEE6D56C67 /* NGLES2Engine.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DB56D3A1C6FA930367624F63983225 /* NGLES2Engine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50B08D6C413AB7719A22075401AA021C /* NGLError.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BEE066916E6D8B8C676F31BC2B6A7 /* NGLError.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5288A31108328E53F4BE5F4B074220AC /* NGLTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4647E582F3DF78C0F326EAA4906C8C /* NGLTexture.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		56075F1746604C1F04039E1AAC29F233 /* NGLSLConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = D47623DD409571EF7C28C587FDE0E602 /* NGLSLConstructor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		56482CDEE051EC47FD5AA0D75E05E58E /* NGLContext.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A319A3A26EA1993B52069FE2A3569C /* NGLContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		565C7353695BDA29B0099D7D6F8A3D2F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD678DF31935E0E3F1F706DDB2A8E15 /* QuartzCore.framework */; };
+		57072AE94A7DB33FF3A9FC19FFB6AF69 /* NGLCoreTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = A32F3DD68D1CAA7CEF4F3715618B6D73 /* NGLCoreTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A72AA335211932405EE01ADEB9E1543 /* Pods-3DRenderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A7C7DE83864C154FF0467384B7A83A8 /* Pods-3DRenderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A81F208F24A449B03C0B666E4D72C55 /* NinevehGL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ECE3E193837BCB263B618170FAFC23B /* NinevehGL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B503E4A79F9E5A406B43E30D045C742 /* NGLEase.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E597DE196E41D6554A6CA75EECCFBC /* NGLEase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5CF377D97C0442D598EE261BCA0EDCBB /* Pods-3DRenderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24271D1E75F0A101DDB8260F315FC9D5 /* Pods-3DRenderTests-dummy.m */; };
+		60E028F2665C1F35B90D295D99445FE1 /* NinevehGL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C27712C07728E338CAFB3314A565D /* NinevehGL-dummy.m */; };
+		611CA8678EE01D7C7F0BF1C9DF069058 /* NGLObject3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B09CD278921749A55E50738335B0FC3 /* NGLObject3D.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6193870CE667EC58FC361858A954A409 /* NGLLight.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD774D5D84B7F75FFEB27A7204131D9 /* NGLLight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63770D90DD6BDC5239762427047EB06E /* NGLFog.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AECBD7B885B4B803C612265A313ACA /* NGLFog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		663CDA2553716C21BDEDA112E303F953 /* NGLGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 959F3988307E940AFFB70546CC1383B5 /* NGLGlobal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6BD44CD48235367FB0DFB1A0802A6FF8 /* NGLArray.h in Headers */ = {isa = PBXBuildFile; fileRef = B3587A62B6FC6148469E74D5CC8A836D /* NGLArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BEE1B0DF3A35A23C8651F103B491680 /* NGLParserImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A131D4E6DCBEC29772CAB1E7D6C03 /* NGLParserImage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6CFED04ED704499D52ADF37E5E5423B2 /* NGLCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = B89D81C9AD7BD6E23D54D323E8002DE2 /* NGLCamera.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6E6112374A8AFF30300637FE26BDF7E4 /* NGLGroup3D.m in Sources */ = {isa = PBXBuildFile; fileRef = C8064E4EF23103DCC33E28D8F79A84EF /* NGLGroup3D.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		71EA88B49B0C58BA1113445BD428F179 /* NGLSLSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E282BF8F12F0619F30141DA33F70CC8 /* NGLSLSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74759D114CCDA4C0CED5DD71555EA4A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF8A35BAD7D971EFA6ED8FCB81AF08 /* Foundation.framework */; };
+		781BA80DA315D3A65796B5D9013B2101 /* NGLES2Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7728FCDEE039A47D75E9B0B7194250F7 /* NGLES2Functions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7A9BB1EF4878D82978538A56D8401447 /* NGLMath.h in Headers */ = {isa = PBXBuildFile; fileRef = E14F0094944089B8CFA4B6565CA8B39A /* NGLMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B10DB7B7106AEB376D0FFED960323D6 /* NGLParserMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 01212BF974423EE6AD16A9864EDDB364 /* NGLParserMesh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CDD7F3037ACF9B7825219367AF1EEE7 /* NGLSLVariables.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B6D1E838F2357B19976C6733A2482B1 /* NGLSLVariables.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D01ACCE437517581FA9B3C4048A8F65 /* NGLDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 861D89161C1073D8832CEC444619A63F /* NGLDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D827959B48327A76E91507034DA711C /* NGLTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE7D7AA771091B70B6C19A0E19D4420 /* NGLTimer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7E29CC85752B737D347D46859990C478 /* NGLParserMTL.h in Headers */ = {isa = PBXBuildFile; fileRef = 533AFAF8D3E20584E72F4BCF88270337 /* NGLParserMTL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8096A7FD2990A0B48619AC42B2C566F0 /* NGLShadersMulti.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E76909B82F49FB969566E43A7B47036 /* NGLShadersMulti.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82B6B2563C69F8402338AB7D1FB265B6 /* NGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B97BB54A5BD8C40644D47DC93666C26 /* NGLView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84B7757B9850B3C2EEDCE4683DBFF2C8 /* NGLES2Mesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B07F3289B1B1C1C3C0C41F27A50CB8B /* NGLES2Mesh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89F4B20CCDF61975B3227119572C3C50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF8A35BAD7D971EFA6ED8FCB81AF08 /* Foundation.framework */; };
+		8DBB1EFBBE50EBBA0F7DB78A30B53FB2 /* NGLES2Buffers.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3A2713F96DA69031686409BFA86205 /* NGLES2Buffers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		96923B8A3335143649873B4D1C3DC417 /* NGLDataType.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F93A63E1B6DE901B251D553F8ADB24 /* NGLDataType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		993DD8183580DD72F6FC56F6E6CB01C8 /* NGLMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A9018BC06BAD2FF59AFB0BC3248CDC /* NGLMesh.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		99CE9E2DF71BF59701B7417D5B87FB7D /* NGLSurfaceMulti.m in Sources */ = {isa = PBXBuildFile; fileRef = E397648ECCA3AEF186A5F089F7310463 /* NGLSurfaceMulti.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9A3567A92D813FEA6C03766FA85342E8 /* NGLSurface.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3A7964DA52F5165E1E054C62EBB9BE /* NGLSurface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D5C317667735CA991EE1EE99D3C7517 /* NGLRegEx.m in Sources */ = {isa = PBXBuildFile; fileRef = EAECCE3E3240F134AF13842BD633994F /* NGLRegEx.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9EAFD2EC30668896D7A042E2BB55EC71 /* NGLParserNGL.h in Headers */ = {isa = PBXBuildFile; fileRef = 676DDA186EEF254C6068F3CE96214057 /* NGLParserNGL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0AC02FBE699875780628B1F26B941E0 /* NGLSurface.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFA42C03591C0EDC026EA10DC63EA0A /* NGLSurface.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A118A5057DC045F3A4D033F9B9F2166C /* NGLGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = E63783C543B87DA287D5B3B4264EE181 /* NGLGlobal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3BC56F001DF5E2B6D4791B8BC0ACF1B /* NGLES2Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2189030B9A5FA5A4E8E53E3A6EF34206 /* NGLES2Engine.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A4D953ABE35CBBADB22654BD3CD45D30 /* NGLMaterialMulti.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D086AEC4B81C2DB2663723DC10652A2 /* NGLMaterialMulti.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A5327476B1F55D3A33AF925093D97618 /* NGLFog.h in Headers */ = {isa = PBXBuildFile; fileRef = 9845598CD548008209EF9141CC90FDA7 /* NGLFog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A61990BBFA6368DB02D7E1BF857DC131 /* NGLObject3D.m in Sources */ = {isa = PBXBuildFile; fileRef = B71AB97021D23537BCEDBAD795EA1399 /* NGLObject3D.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A6D0D6205EDC68327CE33A97B43EEC84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF8A35BAD7D971EFA6ED8FCB81AF08 /* Foundation.framework */; };
+		A8A306849F6E8EDE8F69E0A5EE8920DE /* NGLMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9B959A7EEB3F3DBA76EB8AB50CF47A /* NGLMatrix.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AA0E6873DD7B8FCD26A2D1EE063951A1 /* NGLES2Functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C3687EC757904E6AC9E043EAF93D10E /* NGLES2Functions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB6F25A0D73C3FD926C24BBDB3669538 /* NGLBoundingBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F029F6BC926B8E5256083D83E5BFAF80 /* NGLBoundingBox.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B2D5E6188D76994913D78003238DAB5A /* NGLGestures.h in Headers */ = {isa = PBXBuildFile; fileRef = FA0A1AE41AB656BCAC7ED8E139985152 /* NGLGestures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3E098E751E4192C08367E05C6F4E807 /* NGLMeshElements.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B484B857129ECE986EF45C371E7BE7 /* NGLMeshElements.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B65DC282B8FDE16446B0378F7F2F95DF /* NGLES2Textures.h in Headers */ = {isa = PBXBuildFile; fileRef = BF4D7A0C36CE87323F0CAB17E8B32FAD /* NGLES2Textures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8CBBF2AFF7596B085349942952C968B /* NGLFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5841257D0F0641EEA00559588613AA /* NGLFunctions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C23520D09C201B921D9A916B2AC35433 /* NGLCopying.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F35ED170C6DCDAD0D3EB934659847D7 /* NGLCopying.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C36F985E5936478CA82289FD11DBAB38 /* NGLTween.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B22CFC46D1C8060EBEFA88ECA37381 /* NGLTween.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3ED9E18DE30F572861E1362D2156EEB /* NGLES2Mesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B32A048D46C13D2428306EBD019954A /* NGLES2Mesh.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C6CFD9BC1017CCA613AF5BCC30821A31 /* NGLParserMTL.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2BA76CAD4DCAEDF46090E3CFB858 /* NGLParserMTL.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CDB7B49545984D3687731F46F5113C2F /* NGLTween.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3D81A2F6C0D5B63A1149C4B70564AB /* NGLTween.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CFAE0931BC4C7BC22ED6264A4FAEDE43 /* NGLMaterialMulti.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3CE02EA0F724D58A5CD189354E4BB5 /* NGLMaterialMulti.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6077C51CC38B9619C290F525FDC3B33 /* NGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1CB64272AC8E4983F96C998F8173E7 /* NGLView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DA2077B0C90636652CAF8AE82C46F78A /* NGLRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = E43E01007731191E80153C4C591A449D /* NGLRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC5450E0DBA06BF2DA46C2645EC8C35B /* NGLES2Program.m in Sources */ = {isa = PBXBuildFile; fileRef = 797EDFB35F3733E28F1F39D1BE763217 /* NGLES2Program.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E25E72C79E2CA89D8F89F3964879108B /* NGLMath.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCF43650941BD04FF30D02BC5773B2F /* NGLMath.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E3DB151D230BD41568FF2894729873CE /* NGLMeshElements.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A3D58B9447CF9F4ED3F0C973FB8E14 /* NGLMeshElements.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E58A55071919DF0F4E8397328D99CB8D /* NGLMaterial.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DD9C85504310CF2209B9899760F1FA /* NGLMaterial.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E6974EC4CA9B5805A3474A5F35C7A223 /* NGLVector.m in Sources */ = {isa = PBXBuildFile; fileRef = E293ADE5C5BB3C3F129478A870E88F8F /* NGLVector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E8ACF99D721DD18922F0B429DD70643F /* NGLTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7AA65949783776B460A90F69A24522 /* NGLTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA6407AC68C1C7635D3944AAC35091FB /* NGLSLSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA991732A3FE6AECF9F360EFE56CA3CF /* NGLSLSource.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB2B88EBDEFE868A785189CD1E15A3F4 /* NGLQuaternion.h in Headers */ = {isa = PBXBuildFile; fileRef = E7688E83E2356B5BD1C5DAB707FA3EE7 /* NGLQuaternion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB58942EA54C04BDF682DE8993139DA5 /* NGLRegEx.h in Headers */ = {isa = PBXBuildFile; fileRef = 43148A9EECDC0F741D8593395A2950A7 /* NGLRegEx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED19A5BACBFB511D29711DAE455059EE /* NGLParserDAE.h in Headers */ = {isa = PBXBuildFile; fileRef = 105269028C89983D535680B32205168C /* NGLParserDAE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EED057ED6A31C575DF95CB724F46D34E /* NGLSurfaceMulti.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7E4E823654408926E4E7C2E37BC8DF /* NGLSurfaceMulti.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F24D37A731F67696AF51224A38F1EC96 /* Pods-3DRender-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE62FFDB545A6603DE09E16F2B20A7 /* Pods-3DRender-dummy.m */; };
+		F4A3F977586E77751D330510FBB50FC0 /* NGLParserOBJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 337D4CA93413559A80EBAE143A6398E8 /* NGLParserOBJ.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F5F6EE7F6CE75DFDD978DB0AED244552 /* NGLError.h in Headers */ = {isa = PBXBuildFile; fileRef = 76651122374B102039CA9A62AF5C7930 /* NGLError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F85EA16C0480B7BBF43942FF8618EFB5 /* NGLDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE5E6D046B942A54D0AEF0A2C87BC77 /* NGLDebug.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F9B9543F1265D77FA4C35B1AC3D7529E /* NGLThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA60118F036C12E7842FDB1FD9335C2 /* NGLThread.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FB2269B0F81A2199E8C53E70FA85BF3A /* NGLES2Polygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 16430858C7FF85857F8869B7959AC908 /* NGLES2Polygon.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FBC200078F295E7EAC79342988AB0D66 /* NGLBoundingBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 93364EBB3731B5882D69D1E3DDA1E87E /* NGLBoundingBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA1325D34E70E154774916B6F54D9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748D96876ABD5B24297A9B034C8DE700 /* CoreGraphics.framework */; };
+		FD8E5AB129DF5D8E1D1209724F5D1C2F /* NGLShadersMulti.m in Sources */ = {isa = PBXBuildFile; fileRef = 864568CEE9D734FA1A43A78948EFCC0C /* NGLShadersMulti.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FDF52757D3D4924974DBC86FBC76511F /* Pods-3DRender-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF6310FBEA6067BCA548A4DD9F74171 /* Pods-3DRender-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E30092DC7578F3443E982354BB9EF2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB98712A395EADDFBF241562FAD9365D;
+			remoteInfo = NinevehGL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01212BF974423EE6AD16A9864EDDB364 /* NGLParserMesh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLParserMesh.h; path = Source/parser/NGLParserMesh.h; sourceTree = "<group>"; };
+		018743B8CF2177F9A70F3AE5CC2ABC4B /* NGLThread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLThread.h; path = Source/core/NGLThread.h; sourceTree = "<group>"; };
+		01E24BF2DF15F564987F28C72C3AD4C0 /* Pods-3DRender-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-3DRender-resources.sh"; sourceTree = "<group>"; };
+		02949F53222DB28B91E8781A3F509C20 /* Pods-3DRenderTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-3DRenderTests.modulemap"; sourceTree = "<group>"; };
+		05DD9C85504310CF2209B9899760F1FA /* NGLMaterial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLMaterial.m; path = Source/effects/NGLMaterial.m; sourceTree = "<group>"; };
+		0B32A048D46C13D2428306EBD019954A /* NGLES2Mesh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLES2Mesh.m; path = Source/es2/NGLES2Mesh.m; sourceTree = "<group>"; };
+		0B97BB54A5BD8C40644D47DC93666C26 /* NGLView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLView.h; path = Source/core/NGLView.h; sourceTree = "<group>"; };
+		0C3687EC757904E6AC9E043EAF93D10E /* NGLES2Functions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLES2Functions.h; path = Source/es2/NGLES2Functions.h; sourceTree = "<group>"; };
+		0E1077F7CF11FA24DF4D17DCD6298692 /* NinevehGL-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NinevehGL-prefix.pch"; sourceTree = "<group>"; };
+		0E5841257D0F0641EEA00559588613AA /* NGLFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLFunctions.m; path = Source/core/NGLFunctions.m; sourceTree = "<group>"; };
+		105269028C89983D535680B32205168C /* NGLParserDAE.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLParserDAE.h; path = Source/parser/NGLParserDAE.h; sourceTree = "<group>"; };
+		118F30A16195C1227FAEB1C1F884B1EE /* NinevehGL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NinevehGL.framework; path = NinevehGL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		127AF9817D5643A8931C103C6ABB5E7D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		12E26DBCAB8AB7FC309FB932E1CD35B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16430858C7FF85857F8869B7959AC908 /* NGLES2Polygon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLES2Polygon.m; path = Source/es2/NGLES2Polygon.m; sourceTree = "<group>"; };
+		17A9018BC06BAD2FF59AFB0BC3248CDC /* NGLMesh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLMesh.m; path = Source/core/NGLMesh.m; sourceTree = "<group>"; };
+		18EF8A35BAD7D971EFA6ED8FCB81AF08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1A9B959A7EEB3F3DBA76EB8AB50CF47A /* NGLMatrix.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLMatrix.m; path = Source/math/NGLMatrix.m; sourceTree = "<group>"; };
+		1B1BEE066916E6D8B8C676F31BC2B6A7 /* NGLError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLError.m; path = Source/core/NGLError.m; sourceTree = "<group>"; };
+		1B6D1E838F2357B19976C6733A2482B1 /* NGLSLVariables.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLSLVariables.h; path = Source/shader/NGLSLVariables.h; sourceTree = "<group>"; };
+		1C675C9DCFB7B85FB1FF8E959AF1FFC7 /* NGLCoreEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLCoreEngine.h; path = Source/core/NGLCoreEngine.h; sourceTree = "<group>"; };
+		1C8CB5B658CF4B6BFF6CE405DF1CAF99 /* Pods-3DRenderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-3DRenderTests.release.xcconfig"; sourceTree = "<group>"; };
+		1CA60118F036C12E7842FDB1FD9335C2 /* NGLThread.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLThread.m; path = Source/core/NGLThread.m; sourceTree = "<group>"; };
+		1DDA2BA76CAD4DCAEDF46090E3CFB858 /* NGLParserMTL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLParserMTL.m; path = Source/parser/NGLParserMTL.m; sourceTree = "<group>"; };
+		1DE9BB7BFF1312FEF10519DD51196CFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ECE3E193837BCB263B618170FAFC23B /* NinevehGL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NinevehGL-umbrella.h"; sourceTree = "<group>"; };
+		2189030B9A5FA5A4E8E53E3A6EF34206 /* NGLES2Engine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLES2Engine.m; path = Source/es2/NGLES2Engine.m; sourceTree = "<group>"; };
+		2206BF312013058B25F248D0F692B0FA /* NGLGroup3D.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLGroup3D.h; path = Source/core/NGLGroup3D.h; sourceTree = "<group>"; };
+		24271D1E75F0A101DDB8260F315FC9D5 /* Pods-3DRenderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-3DRenderTests-dummy.m"; sourceTree = "<group>"; };
+		24C371C0EB5EA4A7F9F7671D8BE6F08D /* NGLParserDAE.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLParserDAE.m; path = Source/parser/NGLParserDAE.m; sourceTree = "<group>"; };
+		30030DF1CD96B64E724CF12AB0237D61 /* Pods-3DRenderTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-3DRenderTests-resources.sh"; sourceTree = "<group>"; };
+		315F9898FD1C9B4D48701A72A5085719 /* NinevehGL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NinevehGL.h; path = Source/NinevehGL.h; sourceTree = "<group>"; };
+		337D4CA93413559A80EBAE143A6398E8 /* NGLParserOBJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLParserOBJ.m; path = Source/parser/NGLParserOBJ.m; sourceTree = "<group>"; };
+		340235684B4E79F374C934D877D0F86E /* Pods-3DRenderTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-3DRenderTests-frameworks.sh"; sourceTree = "<group>"; };
+		38CEE614AEECA838EAC9B40F87277757 /* Pods-3DRenderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-3DRenderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A65B8FE5D82AB126E079C79F5D7F4D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A7E4E823654408926E4E7C2E37BC8DF /* NGLSurfaceMulti.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLSurfaceMulti.h; path = Source/effects/NGLSurfaceMulti.h; sourceTree = "<group>"; };
+		43148A9EECDC0F741D8593395A2950A7 /* NGLRegEx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLRegEx.h; path = Source/utils/NGLRegEx.h; sourceTree = "<group>"; };
+		44B6F5C7C88476F97B6245D6AF7A3B40 /* NGLVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLVector.h; path = Source/math/NGLVector.h; sourceTree = "<group>"; };
+		47B22CFC46D1C8060EBEFA88ECA37381 /* NGLTween.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLTween.h; path = Source/animation/NGLTween.h; sourceTree = "<group>"; };
+		49E1A1E2B22B11C9416E6295CF76E0D9 /* NGLMaterial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLMaterial.h; path = Source/effects/NGLMaterial.h; sourceTree = "<group>"; };
+		49F93A63E1B6DE901B251D553F8ADB24 /* NGLDataType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLDataType.h; path = Source/core/NGLDataType.h; sourceTree = "<group>"; };
+		4E3A7964DA52F5165E1E054C62EBB9BE /* NGLSurface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLSurface.h; path = Source/effects/NGLSurface.h; sourceTree = "<group>"; };
+		52E597DE196E41D6554A6CA75EECCFBC /* NGLEase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLEase.m; path = Source/animation/NGLEase.m; sourceTree = "<group>"; };
+		533AFAF8D3E20584E72F4BCF88270337 /* NGLParserMTL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLParserMTL.h; path = Source/parser/NGLParserMTL.h; sourceTree = "<group>"; };
+		58A3D58B9447CF9F4ED3F0C973FB8E14 /* NGLMeshElements.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLMeshElements.m; path = Source/core/NGLMeshElements.m; sourceTree = "<group>"; };
+		596AD8ED7F541F815C40E1C6A73D367E /* NGLES2Textures.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLES2Textures.m; path = Source/es2/NGLES2Textures.m; sourceTree = "<group>"; };
+		597FEC5238A0C8B4D210424245FE7B93 /* NGLEase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLEase.h; path = Source/animation/NGLEase.h; sourceTree = "<group>"; };
+		5C92C4F1BE2F1EF3821E8EABDBB8CBD9 /* NGLParserOBJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLParserOBJ.h; path = Source/parser/NGLParserOBJ.h; sourceTree = "<group>"; };
+		5D086AEC4B81C2DB2663723DC10652A2 /* NGLMaterialMulti.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLMaterialMulti.m; path = Source/effects/NGLMaterialMulti.m; sourceTree = "<group>"; };
+		5DFA42C03591C0EDC026EA10DC63EA0A /* NGLSurface.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLSurface.m; path = Source/effects/NGLSurface.m; sourceTree = "<group>"; };
+		5E282BF8F12F0619F30141DA33F70CC8 /* NGLSLSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLSLSource.h; path = Source/shader/NGLSLSource.h; sourceTree = "<group>"; };
+		5F35ED170C6DCDAD0D3EB934659847D7 /* NGLCopying.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLCopying.h; path = Source/core/NGLCopying.h; sourceTree = "<group>"; };
+		5F4ADD1DD9946A05AEE19FA2CBF64EE1 /* NGLFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLFunctions.h; path = Source/core/NGLFunctions.h; sourceTree = "<group>"; };
+		624729D8272EEC8A3E0D969ECD460643 /* NGLSLVariables.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLSLVariables.m; path = Source/shader/NGLSLVariables.m; sourceTree = "<group>"; };
+		676DDA186EEF254C6068F3CE96214057 /* NGLParserNGL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLParserNGL.h; path = Source/parser/NGLParserNGL.h; sourceTree = "<group>"; };
+		6A1BE3D28E826F06F84B608EE3DC21CB /* NGLSLConstructor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLSLConstructor.h; path = Source/shader/NGLSLConstructor.h; sourceTree = "<group>"; };
+		6AD678DF31935E0E3F1F706DDB2A8E15 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		6B09CD278921749A55E50738335B0FC3 /* NGLObject3D.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLObject3D.h; path = Source/core/NGLObject3D.h; sourceTree = "<group>"; };
+		6B8A131D4E6DCBEC29772CAB1E7D6C03 /* NGLParserImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLParserImage.m; path = Source/parser/NGLParserImage.m; sourceTree = "<group>"; };
+		6E5EECB3143FF533C54650D38590A9A3 /* NGLCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLCamera.h; path = Source/core/NGLCamera.h; sourceTree = "<group>"; };
+		74888D81F80708354A99A34CAC0F93FA /* Pods-3DRenderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-3DRenderTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		748D96876ABD5B24297A9B034C8DE700 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		7638B5A033B2BBD7CDE814F1B0D6CA11 /* Pods_3DRender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_3DRender.framework; path = "Pods-3DRender.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76651122374B102039CA9A62AF5C7930 /* NGLError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLError.h; path = Source/core/NGLError.h; sourceTree = "<group>"; };
+		7728FCDEE039A47D75E9B0B7194250F7 /* NGLES2Functions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLES2Functions.m; path = Source/es2/NGLES2Functions.m; sourceTree = "<group>"; };
+		797EDFB35F3733E28F1F39D1BE763217 /* NGLES2Program.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLES2Program.m; path = Source/es2/NGLES2Program.m; sourceTree = "<group>"; };
+		7CF05FE1417726660A5A409DCF289B79 /* NGLParserMesh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLParserMesh.m; path = Source/parser/NGLParserMesh.m; sourceTree = "<group>"; };
+		7E13719D806E14225AD50B35DFA74B66 /* NGLMesh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLMesh.h; path = Source/core/NGLMesh.h; sourceTree = "<group>"; };
+		7F7AA65949783776B460A90F69A24522 /* NGLTexture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLTexture.h; path = Source/core/NGLTexture.h; sourceTree = "<group>"; };
+		80A0AC7ECCB6FCA64D7EBAA0AE8206D3 /* Pods-3DRender-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-3DRender-acknowledgements.markdown"; sourceTree = "<group>"; };
+		815C27712C07728E338CAFB3314A565D /* NinevehGL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NinevehGL-dummy.m"; sourceTree = "<group>"; };
+		861D89161C1073D8832CEC444619A63F /* NGLDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLDebug.h; path = Source/utils/NGLDebug.h; sourceTree = "<group>"; };
+		864568CEE9D734FA1A43A78948EFCC0C /* NGLShadersMulti.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLShadersMulti.m; path = Source/effects/NGLShadersMulti.m; sourceTree = "<group>"; };
+		8AE5E6D046B942A54D0AEF0A2C87BC77 /* NGLDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLDebug.m; path = Source/utils/NGLDebug.m; sourceTree = "<group>"; };
+		8B07F3289B1B1C1C3C0C41F27A50CB8B /* NGLES2Mesh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLES2Mesh.h; path = Source/es2/NGLES2Mesh.h; sourceTree = "<group>"; };
+		8E3BE12B2B4303E7E74631B826C4DCC6 /* NinevehGL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NinevehGL.modulemap; sourceTree = "<group>"; };
+		8E76909B82F49FB969566E43A7B47036 /* NGLShadersMulti.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLShadersMulti.h; path = Source/effects/NGLShadersMulti.h; sourceTree = "<group>"; };
+		8FC5964A3ED5862526D89F4D7923090B /* NGLIterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLIterator.h; path = Source/utils/NGLIterator.h; sourceTree = "<group>"; };
+		92AECBD7B885B4B803C612265A313ACA /* NGLFog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLFog.m; path = Source/effects/NGLFog.m; sourceTree = "<group>"; };
+		93364EBB3731B5882D69D1E3DDA1E87E /* NGLBoundingBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLBoundingBox.h; path = Source/math/NGLBoundingBox.h; sourceTree = "<group>"; };
+		9392D71BA5DCA68098970BD9AA9114D1 /* NGLParserNGL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLParserNGL.m; path = Source/parser/NGLParserNGL.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		959F3988307E940AFFB70546CC1383B5 /* NGLGlobal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLGlobal.m; path = Source/core/NGLGlobal.m; sourceTree = "<group>"; };
+		9845598CD548008209EF9141CC90FDA7 /* NGLFog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLFog.h; path = Source/effects/NGLFog.h; sourceTree = "<group>"; };
+		98EA2C22CF2D1941FFA4A52E94F3538D /* Pods-3DRenderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-3DRenderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9A7C7DE83864C154FF0467384B7A83A8 /* Pods-3DRenderTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-3DRenderTests-umbrella.h"; sourceTree = "<group>"; };
+		9C3D81A2F6C0D5B63A1149C4B70564AB /* NGLTween.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLTween.m; path = Source/animation/NGLTween.m; sourceTree = "<group>"; };
+		9ED221CBBB311F21D4E6FFC1592DB1D7 /* NGLES2Program.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLES2Program.h; path = Source/es2/NGLES2Program.h; sourceTree = "<group>"; };
+		9F3A2713F96DA69031686409BFA86205 /* NGLES2Buffers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLES2Buffers.m; path = Source/es2/NGLES2Buffers.m; sourceTree = "<group>"; };
+		A32F3DD68D1CAA7CEF4F3715618B6D73 /* NGLCoreTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLCoreTimer.h; path = Source/core/NGLCoreTimer.h; sourceTree = "<group>"; };
+		ACFF560788585736276E608A6BC46970 /* NGLQuaternion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLQuaternion.m; path = Source/math/NGLQuaternion.m; sourceTree = "<group>"; };
+		AEE6473C514F841CAF95C3E500C5264A /* Pods-3DRender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-3DRender.debug.xcconfig"; sourceTree = "<group>"; };
+		B1D119F7B629244EA9A58F0A2B6CF597 /* NGLMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLMatrix.h; path = Source/math/NGLMatrix.h; sourceTree = "<group>"; };
+		B2C6C7E11EFADCA403FFAB12E7933E9C /* Pods-3DRender.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-3DRender.modulemap"; sourceTree = "<group>"; };
+		B31EA4A03C025045266896D57C643313 /* Pods-3DRender-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-3DRender-acknowledgements.plist"; sourceTree = "<group>"; };
+		B3587A62B6FC6148469E74D5CC8A836D /* NGLArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLArray.h; path = Source/utils/NGLArray.h; sourceTree = "<group>"; };
+		B41E6B18718AA62CE7CBA70D2515F600 /* NinevehGL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NinevehGL.xcconfig; sourceTree = "<group>"; };
+		B468AEFB3CB2E6DF56AE56AEDC96847F /* NGLGestures.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLGestures.m; path = Source/utils/NGLGestures.m; sourceTree = "<group>"; };
+		B71AB97021D23537BCEDBAD795EA1399 /* NGLObject3D.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLObject3D.m; path = Source/core/NGLObject3D.m; sourceTree = "<group>"; };
+		B89D81C9AD7BD6E23D54D323E8002DE2 /* NGLCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLCamera.m; path = Source/core/NGLCamera.m; sourceTree = "<group>"; };
+		BB868FAFD9AE948FDE58647056902B75 /* NGLES2Polygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLES2Polygon.h; path = Source/es2/NGLES2Polygon.h; sourceTree = "<group>"; };
+		BCCF43650941BD04FF30D02BC5773B2F /* NGLMath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLMath.m; path = Source/math/NGLMath.m; sourceTree = "<group>"; };
+		BEF6310FBEA6067BCA548A4DD9F74171 /* Pods-3DRender-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-3DRender-umbrella.h"; sourceTree = "<group>"; };
+		BF4D7A0C36CE87323F0CAB17E8B32FAD /* NGLES2Textures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLES2Textures.h; path = Source/es2/NGLES2Textures.h; sourceTree = "<group>"; };
+		C0F9E86FA0CB18F804D300A9481AAA3E /* NGLES2Buffers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLES2Buffers.h; path = Source/es2/NGLES2Buffers.h; sourceTree = "<group>"; };
+		C4A95856EA00B0F99CEF89DBD6762D52 /* NGLLight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLLight.m; path = Source/effects/NGLLight.m; sourceTree = "<group>"; };
+		C611AA4836EF025B9365721E2C5FC5B2 /* NGLParserImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLParserImage.h; path = Source/parser/NGLParserImage.h; sourceTree = "<group>"; };
+		C6BE7020AA749F28D187AC40D71869EC /* NGLCoreMesh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLCoreMesh.h; path = Source/core/NGLCoreMesh.h; sourceTree = "<group>"; };
+		C8064E4EF23103DCC33E28D8F79A84EF /* NGLGroup3D.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLGroup3D.m; path = Source/core/NGLGroup3D.m; sourceTree = "<group>"; };
+		C87EF66115E9B848D33E7BE005B6DB19 /* Pods_3DRenderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_3DRenderTests.framework; path = "Pods-3DRenderTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3CE02EA0F724D58A5CD189354E4BB5 /* NGLMaterialMulti.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLMaterialMulti.h; path = Source/effects/NGLMaterialMulti.h; sourceTree = "<group>"; };
+		CDFE62FFDB545A6603DE09E16F2B20A7 /* Pods-3DRender-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-3DRender-dummy.m"; sourceTree = "<group>"; };
+		D06758D61B88566056F75E50B808F08C /* NGLContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLContext.m; path = Source/core/NGLContext.m; sourceTree = "<group>"; };
+		D47623DD409571EF7C28C587FDE0E602 /* NGLSLConstructor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLSLConstructor.m; path = Source/shader/NGLSLConstructor.m; sourceTree = "<group>"; };
+		D4DB56D3A1C6FA930367624F63983225 /* NGLES2Engine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLES2Engine.h; path = Source/es2/NGLES2Engine.h; sourceTree = "<group>"; };
+		DBD774D5D84B7F75FFEB27A7204131D9 /* NGLLight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLLight.h; path = Source/effects/NGLLight.h; sourceTree = "<group>"; };
+		DCB339A73C487D40AA0D58A94ADFC8A3 /* Pods-3DRender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-3DRender.release.xcconfig"; sourceTree = "<group>"; };
+		E14F0094944089B8CFA4B6565CA8B39A /* NGLMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLMath.h; path = Source/math/NGLMath.h; sourceTree = "<group>"; };
+		E293ADE5C5BB3C3F129478A870E88F8F /* NGLVector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLVector.m; path = Source/math/NGLVector.m; sourceTree = "<group>"; };
+		E397648ECCA3AEF186A5F089F7310463 /* NGLSurfaceMulti.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLSurfaceMulti.m; path = Source/effects/NGLSurfaceMulti.m; sourceTree = "<group>"; };
+		E43E01007731191E80153C4C591A449D /* NGLRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLRuntime.h; path = Source/core/NGLRuntime.h; sourceTree = "<group>"; };
+		E63783C543B87DA287D5B3B4264EE181 /* NGLGlobal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLGlobal.h; path = Source/core/NGLGlobal.h; sourceTree = "<group>"; };
+		E7125F658C28B0C72A15B95A9C169814 /* NGLShaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLShaders.h; path = Source/effects/NGLShaders.h; sourceTree = "<group>"; };
+		E7688E83E2356B5BD1C5DAB707FA3EE7 /* NGLQuaternion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLQuaternion.h; path = Source/math/NGLQuaternion.h; sourceTree = "<group>"; };
+		EA991732A3FE6AECF9F360EFE56CA3CF /* NGLSLSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLSLSource.m; path = Source/shader/NGLSLSource.m; sourceTree = "<group>"; };
+		EAECCE3E3240F134AF13842BD633994F /* NGLRegEx.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLRegEx.m; path = Source/utils/NGLRegEx.m; sourceTree = "<group>"; };
+		EBDF0248D0EC533474E4A6E12BC2EC45 /* NGLArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLArray.m; path = Source/utils/NGLArray.m; sourceTree = "<group>"; };
+		EC1CB64272AC8E4983F96C998F8173E7 /* NGLView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLView.m; path = Source/core/NGLView.m; sourceTree = "<group>"; };
+		ECD230E7FEB7EFA19683AADCA30CE778 /* Pods-3DRender-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-3DRender-frameworks.sh"; sourceTree = "<group>"; };
+		F029F6BC926B8E5256083D83E5BFAF80 /* NGLBoundingBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLBoundingBox.m; path = Source/math/NGLBoundingBox.m; sourceTree = "<group>"; };
+		F8B484B857129ECE986EF45C371E7BE7 /* NGLMeshElements.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLMeshElements.h; path = Source/core/NGLMeshElements.h; sourceTree = "<group>"; };
+		F8F922CA6DCBC1926D3B9DA451487E95 /* NGLTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLTimer.h; path = Source/core/NGLTimer.h; sourceTree = "<group>"; };
+		F9A319A3A26EA1993B52069FE2A3569C /* NGLContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLContext.h; path = Source/core/NGLContext.h; sourceTree = "<group>"; };
+		FA0A1AE41AB656BCAC7ED8E139985152 /* NGLGestures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NGLGestures.h; path = Source/utils/NGLGestures.h; sourceTree = "<group>"; };
+		FAE7D7AA771091B70B6C19A0E19D4420 /* NGLTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLTimer.m; path = Source/core/NGLTimer.m; sourceTree = "<group>"; };
+		FB4647E582F3DF78C0F326EAA4906C8C /* NGLTexture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLTexture.m; path = Source/core/NGLTexture.m; sourceTree = "<group>"; };
+		FCB54D519F669B258AAF7BFE7433540F /* NGLShaders.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NGLShaders.m; path = Source/effects/NGLShaders.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60B930ADA258A84B9E5441E0441D4CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D0D6205EDC68327CE33A97B43EEC84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E801EF55296B91B220F44F05DCD8E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFA1325D34E70E154774916B6F54D9E /* CoreGraphics.framework in Frameworks */,
+				74759D114CCDA4C0CED5DD71555EA4A5 /* Foundation.framework in Frameworks */,
+				0678A28C20ACFA8511B4EEEC58FF15C3 /* OpenGLES.framework in Frameworks */,
+				565C7353695BDA29B0099D7D6F8A3D2F /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10A5F7A79FD7305F53712E809FB1B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F4B20CCDF61975B3227119572C3C50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09AE93C03806368F91E2688188DC89DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				118F30A16195C1227FAEB1C1F884B1EE /* NinevehGL.framework */,
+				7638B5A033B2BBD7CDE814F1B0D6CA11 /* Pods_3DRender.framework */,
+				C87EF66115E9B848D33E7BE005B6DB19 /* Pods_3DRenderTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2CFA3988E7DA98C50C39C61BE3FAF6A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				E6E3397942214AF13AB4A7E4177FB60E /* Pods */,
+				09AE93C03806368F91E2688188DC89DD /* Products */,
+				F9C43EB3812CB526632E4C9F45F29CA3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		832B3AD488508E6C1F4DF6AD2F960A88 /* Pods-3DRender */ = {
+			isa = PBXGroup;
+			children = (
+				3A65B8FE5D82AB126E079C79F5D7F4D4 /* Info.plist */,
+				B2C6C7E11EFADCA403FFAB12E7933E9C /* Pods-3DRender.modulemap */,
+				80A0AC7ECCB6FCA64D7EBAA0AE8206D3 /* Pods-3DRender-acknowledgements.markdown */,
+				B31EA4A03C025045266896D57C643313 /* Pods-3DRender-acknowledgements.plist */,
+				CDFE62FFDB545A6603DE09E16F2B20A7 /* Pods-3DRender-dummy.m */,
+				ECD230E7FEB7EFA19683AADCA30CE778 /* Pods-3DRender-frameworks.sh */,
+				01E24BF2DF15F564987F28C72C3AD4C0 /* Pods-3DRender-resources.sh */,
+				BEF6310FBEA6067BCA548A4DD9F74171 /* Pods-3DRender-umbrella.h */,
+				AEE6473C514F841CAF95C3E500C5264A /* Pods-3DRender.debug.xcconfig */,
+				DCB339A73C487D40AA0D58A94ADFC8A3 /* Pods-3DRender.release.xcconfig */,
+			);
+			name = "Pods-3DRender";
+			path = "Target Support Files/Pods-3DRender";
+			sourceTree = "<group>";
+		};
+		BF2B74D158A7F4BB050A613D4668E970 /* Pods-3DRenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DE9BB7BFF1312FEF10519DD51196CFF /* Info.plist */,
+				02949F53222DB28B91E8781A3F509C20 /* Pods-3DRenderTests.modulemap */,
+				98EA2C22CF2D1941FFA4A52E94F3538D /* Pods-3DRenderTests-acknowledgements.markdown */,
+				74888D81F80708354A99A34CAC0F93FA /* Pods-3DRenderTests-acknowledgements.plist */,
+				24271D1E75F0A101DDB8260F315FC9D5 /* Pods-3DRenderTests-dummy.m */,
+				340235684B4E79F374C934D877D0F86E /* Pods-3DRenderTests-frameworks.sh */,
+				30030DF1CD96B64E724CF12AB0237D61 /* Pods-3DRenderTests-resources.sh */,
+				9A7C7DE83864C154FF0467384B7A83A8 /* Pods-3DRenderTests-umbrella.h */,
+				38CEE614AEECA838EAC9B40F87277757 /* Pods-3DRenderTests.debug.xcconfig */,
+				1C8CB5B658CF4B6BFF6CE405DF1CAF99 /* Pods-3DRenderTests.release.xcconfig */,
+			);
+			name = "Pods-3DRenderTests";
+			path = "Target Support Files/Pods-3DRenderTests";
+			sourceTree = "<group>";
+		};
+		C2CFA3988E7DA98C50C39C61BE3FAF6A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				748D96876ABD5B24297A9B034C8DE700 /* CoreGraphics.framework */,
+				18EF8A35BAD7D971EFA6ED8FCB81AF08 /* Foundation.framework */,
+				127AF9817D5643A8931C103C6ABB5E7D /* OpenGLES.framework */,
+				6AD678DF31935E0E3F1F706DDB2A8E15 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D8C69D0A3E7DA167ECE7BE7472D5A74A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B3587A62B6FC6148469E74D5CC8A836D /* NGLArray.h */,
+				EBDF0248D0EC533474E4A6E12BC2EC45 /* NGLArray.m */,
+				93364EBB3731B5882D69D1E3DDA1E87E /* NGLBoundingBox.h */,
+				F029F6BC926B8E5256083D83E5BFAF80 /* NGLBoundingBox.m */,
+				6E5EECB3143FF533C54650D38590A9A3 /* NGLCamera.h */,
+				B89D81C9AD7BD6E23D54D323E8002DE2 /* NGLCamera.m */,
+				F9A319A3A26EA1993B52069FE2A3569C /* NGLContext.h */,
+				D06758D61B88566056F75E50B808F08C /* NGLContext.m */,
+				5F35ED170C6DCDAD0D3EB934659847D7 /* NGLCopying.h */,
+				1C675C9DCFB7B85FB1FF8E959AF1FFC7 /* NGLCoreEngine.h */,
+				C6BE7020AA749F28D187AC40D71869EC /* NGLCoreMesh.h */,
+				A32F3DD68D1CAA7CEF4F3715618B6D73 /* NGLCoreTimer.h */,
+				49F93A63E1B6DE901B251D553F8ADB24 /* NGLDataType.h */,
+				861D89161C1073D8832CEC444619A63F /* NGLDebug.h */,
+				8AE5E6D046B942A54D0AEF0A2C87BC77 /* NGLDebug.m */,
+				597FEC5238A0C8B4D210424245FE7B93 /* NGLEase.h */,
+				52E597DE196E41D6554A6CA75EECCFBC /* NGLEase.m */,
+				76651122374B102039CA9A62AF5C7930 /* NGLError.h */,
+				1B1BEE066916E6D8B8C676F31BC2B6A7 /* NGLError.m */,
+				C0F9E86FA0CB18F804D300A9481AAA3E /* NGLES2Buffers.h */,
+				9F3A2713F96DA69031686409BFA86205 /* NGLES2Buffers.m */,
+				D4DB56D3A1C6FA930367624F63983225 /* NGLES2Engine.h */,
+				2189030B9A5FA5A4E8E53E3A6EF34206 /* NGLES2Engine.m */,
+				0C3687EC757904E6AC9E043EAF93D10E /* NGLES2Functions.h */,
+				7728FCDEE039A47D75E9B0B7194250F7 /* NGLES2Functions.m */,
+				8B07F3289B1B1C1C3C0C41F27A50CB8B /* NGLES2Mesh.h */,
+				0B32A048D46C13D2428306EBD019954A /* NGLES2Mesh.m */,
+				BB868FAFD9AE948FDE58647056902B75 /* NGLES2Polygon.h */,
+				16430858C7FF85857F8869B7959AC908 /* NGLES2Polygon.m */,
+				9ED221CBBB311F21D4E6FFC1592DB1D7 /* NGLES2Program.h */,
+				797EDFB35F3733E28F1F39D1BE763217 /* NGLES2Program.m */,
+				BF4D7A0C36CE87323F0CAB17E8B32FAD /* NGLES2Textures.h */,
+				596AD8ED7F541F815C40E1C6A73D367E /* NGLES2Textures.m */,
+				9845598CD548008209EF9141CC90FDA7 /* NGLFog.h */,
+				92AECBD7B885B4B803C612265A313ACA /* NGLFog.m */,
+				5F4ADD1DD9946A05AEE19FA2CBF64EE1 /* NGLFunctions.h */,
+				0E5841257D0F0641EEA00559588613AA /* NGLFunctions.m */,
+				FA0A1AE41AB656BCAC7ED8E139985152 /* NGLGestures.h */,
+				B468AEFB3CB2E6DF56AE56AEDC96847F /* NGLGestures.m */,
+				E63783C543B87DA287D5B3B4264EE181 /* NGLGlobal.h */,
+				959F3988307E940AFFB70546CC1383B5 /* NGLGlobal.m */,
+				2206BF312013058B25F248D0F692B0FA /* NGLGroup3D.h */,
+				C8064E4EF23103DCC33E28D8F79A84EF /* NGLGroup3D.m */,
+				8FC5964A3ED5862526D89F4D7923090B /* NGLIterator.h */,
+				DBD774D5D84B7F75FFEB27A7204131D9 /* NGLLight.h */,
+				C4A95856EA00B0F99CEF89DBD6762D52 /* NGLLight.m */,
+				49E1A1E2B22B11C9416E6295CF76E0D9 /* NGLMaterial.h */,
+				05DD9C85504310CF2209B9899760F1FA /* NGLMaterial.m */,
+				CB3CE02EA0F724D58A5CD189354E4BB5 /* NGLMaterialMulti.h */,
+				5D086AEC4B81C2DB2663723DC10652A2 /* NGLMaterialMulti.m */,
+				E14F0094944089B8CFA4B6565CA8B39A /* NGLMath.h */,
+				BCCF43650941BD04FF30D02BC5773B2F /* NGLMath.m */,
+				B1D119F7B629244EA9A58F0A2B6CF597 /* NGLMatrix.h */,
+				1A9B959A7EEB3F3DBA76EB8AB50CF47A /* NGLMatrix.m */,
+				7E13719D806E14225AD50B35DFA74B66 /* NGLMesh.h */,
+				17A9018BC06BAD2FF59AFB0BC3248CDC /* NGLMesh.m */,
+				F8B484B857129ECE986EF45C371E7BE7 /* NGLMeshElements.h */,
+				58A3D58B9447CF9F4ED3F0C973FB8E14 /* NGLMeshElements.m */,
+				6B09CD278921749A55E50738335B0FC3 /* NGLObject3D.h */,
+				B71AB97021D23537BCEDBAD795EA1399 /* NGLObject3D.m */,
+				105269028C89983D535680B32205168C /* NGLParserDAE.h */,
+				24C371C0EB5EA4A7F9F7671D8BE6F08D /* NGLParserDAE.m */,
+				C611AA4836EF025B9365721E2C5FC5B2 /* NGLParserImage.h */,
+				6B8A131D4E6DCBEC29772CAB1E7D6C03 /* NGLParserImage.m */,
+				01212BF974423EE6AD16A9864EDDB364 /* NGLParserMesh.h */,
+				7CF05FE1417726660A5A409DCF289B79 /* NGLParserMesh.m */,
+				533AFAF8D3E20584E72F4BCF88270337 /* NGLParserMTL.h */,
+				1DDA2BA76CAD4DCAEDF46090E3CFB858 /* NGLParserMTL.m */,
+				676DDA186EEF254C6068F3CE96214057 /* NGLParserNGL.h */,
+				9392D71BA5DCA68098970BD9AA9114D1 /* NGLParserNGL.m */,
+				5C92C4F1BE2F1EF3821E8EABDBB8CBD9 /* NGLParserOBJ.h */,
+				337D4CA93413559A80EBAE143A6398E8 /* NGLParserOBJ.m */,
+				E7688E83E2356B5BD1C5DAB707FA3EE7 /* NGLQuaternion.h */,
+				ACFF560788585736276E608A6BC46970 /* NGLQuaternion.m */,
+				43148A9EECDC0F741D8593395A2950A7 /* NGLRegEx.h */,
+				EAECCE3E3240F134AF13842BD633994F /* NGLRegEx.m */,
+				E43E01007731191E80153C4C591A449D /* NGLRuntime.h */,
+				E7125F658C28B0C72A15B95A9C169814 /* NGLShaders.h */,
+				FCB54D519F669B258AAF7BFE7433540F /* NGLShaders.m */,
+				8E76909B82F49FB969566E43A7B47036 /* NGLShadersMulti.h */,
+				864568CEE9D734FA1A43A78948EFCC0C /* NGLShadersMulti.m */,
+				6A1BE3D28E826F06F84B608EE3DC21CB /* NGLSLConstructor.h */,
+				D47623DD409571EF7C28C587FDE0E602 /* NGLSLConstructor.m */,
+				5E282BF8F12F0619F30141DA33F70CC8 /* NGLSLSource.h */,
+				EA991732A3FE6AECF9F360EFE56CA3CF /* NGLSLSource.m */,
+				1B6D1E838F2357B19976C6733A2482B1 /* NGLSLVariables.h */,
+				624729D8272EEC8A3E0D969ECD460643 /* NGLSLVariables.m */,
+				4E3A7964DA52F5165E1E054C62EBB9BE /* NGLSurface.h */,
+				5DFA42C03591C0EDC026EA10DC63EA0A /* NGLSurface.m */,
+				3A7E4E823654408926E4E7C2E37BC8DF /* NGLSurfaceMulti.h */,
+				E397648ECCA3AEF186A5F089F7310463 /* NGLSurfaceMulti.m */,
+				7F7AA65949783776B460A90F69A24522 /* NGLTexture.h */,
+				FB4647E582F3DF78C0F326EAA4906C8C /* NGLTexture.m */,
+				018743B8CF2177F9A70F3AE5CC2ABC4B /* NGLThread.h */,
+				1CA60118F036C12E7842FDB1FD9335C2 /* NGLThread.m */,
+				F8F922CA6DCBC1926D3B9DA451487E95 /* NGLTimer.h */,
+				FAE7D7AA771091B70B6C19A0E19D4420 /* NGLTimer.m */,
+				47B22CFC46D1C8060EBEFA88ECA37381 /* NGLTween.h */,
+				9C3D81A2F6C0D5B63A1149C4B70564AB /* NGLTween.m */,
+				44B6F5C7C88476F97B6245D6AF7A3B40 /* NGLVector.h */,
+				E293ADE5C5BB3C3F129478A870E88F8F /* NGLVector.m */,
+				0B97BB54A5BD8C40644D47DC93666C26 /* NGLView.h */,
+				EC1CB64272AC8E4983F96C998F8173E7 /* NGLView.m */,
+				315F9898FD1C9B4D48701A72A5085719 /* NinevehGL.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		DBB24B6F47EA3B177E47B6A621415DE6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12E26DBCAB8AB7FC309FB932E1CD35B3 /* Info.plist */,
+				8E3BE12B2B4303E7E74631B826C4DCC6 /* NinevehGL.modulemap */,
+				B41E6B18718AA62CE7CBA70D2515F600 /* NinevehGL.xcconfig */,
+				815C27712C07728E338CAFB3314A565D /* NinevehGL-dummy.m */,
+				0E1077F7CF11FA24DF4D17DCD6298692 /* NinevehGL-prefix.pch */,
+				1ECE3E193837BCB263B618170FAFC23B /* NinevehGL-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NinevehGL";
+			sourceTree = "<group>";
+		};
+		DCE173CEB5B0A12CAD06284B6A22FFF8 /* NinevehGL */ = {
+			isa = PBXGroup;
+			children = (
+				D8C69D0A3E7DA167ECE7BE7472D5A74A /* Core */,
+				DBB24B6F47EA3B177E47B6A621415DE6 /* Support Files */,
+			);
+			name = NinevehGL;
+			path = NinevehGL;
+			sourceTree = "<group>";
+		};
+		E6E3397942214AF13AB4A7E4177FB60E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCE173CEB5B0A12CAD06284B6A22FFF8 /* NinevehGL */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9C43EB3812CB526632E4C9F45F29CA3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				832B3AD488508E6C1F4DF6AD2F960A88 /* Pods-3DRender */,
+				BF2B74D158A7F4BB050A613D4668E970 /* Pods-3DRenderTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6592B5F06C69CE1D195EA35A6B498F00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF52757D3D4924974DBC86FBC76511F /* Pods-3DRender-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CAC902EE67E686D3385860F10A815A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A72AA335211932405EE01ADEB9E1543 /* Pods-3DRenderTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC2F15DF0DFC48F251872C2F354F599 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD44CD48235367FB0DFB1A0802A6FF8 /* NGLArray.h in Headers */,
+				FBC200078F295E7EAC79342988AB0D66 /* NGLBoundingBox.h in Headers */,
+				2037C428AD88DED6F50B9687AF01E539 /* NGLCamera.h in Headers */,
+				56482CDEE051EC47FD5AA0D75E05E58E /* NGLContext.h in Headers */,
+				C23520D09C201B921D9A916B2AC35433 /* NGLCopying.h in Headers */,
+				463182D51DEA973574068F981B69E4BE /* NGLCoreEngine.h in Headers */,
+				28EE8AA00C42FD1637C86EFCECA436B4 /* NGLCoreMesh.h in Headers */,
+				57072AE94A7DB33FF3A9FC19FFB6AF69 /* NGLCoreTimer.h in Headers */,
+				96923B8A3335143649873B4D1C3DC417 /* NGLDataType.h in Headers */,
+				7D01ACCE437517581FA9B3C4048A8F65 /* NGLDebug.h in Headers */,
+				143AE24D82CFDB17EEF1B4480B3635CB /* NGLEase.h in Headers */,
+				F5F6EE7F6CE75DFDD978DB0AED244552 /* NGLError.h in Headers */,
+				28289D9759263B642ECE1CDFB8E6C667 /* NGLES2Buffers.h in Headers */,
+				4D26077189BA7D4900D3C6DEE6D56C67 /* NGLES2Engine.h in Headers */,
+				AA0E6873DD7B8FCD26A2D1EE063951A1 /* NGLES2Functions.h in Headers */,
+				84B7757B9850B3C2EEDCE4683DBFF2C8 /* NGLES2Mesh.h in Headers */,
+				1D24D9D6A07236B8062F5E4035D42E43 /* NGLES2Polygon.h in Headers */,
+				36F2135A363925E1A5ED8C433F363071 /* NGLES2Program.h in Headers */,
+				B65DC282B8FDE16446B0378F7F2F95DF /* NGLES2Textures.h in Headers */,
+				A5327476B1F55D3A33AF925093D97618 /* NGLFog.h in Headers */,
+				41AA102EDEA6E3471C1BC5CF5E64FC1E /* NGLFunctions.h in Headers */,
+				B2D5E6188D76994913D78003238DAB5A /* NGLGestures.h in Headers */,
+				A118A5057DC045F3A4D033F9B9F2166C /* NGLGlobal.h in Headers */,
+				3619EF8674E8DE231098A81BB9911B26 /* NGLGroup3D.h in Headers */,
+				246654EEEFC2101449B29CE02D5A4B25 /* NGLIterator.h in Headers */,
+				6193870CE667EC58FC361858A954A409 /* NGLLight.h in Headers */,
+				054C6B1407E140328C4B2056467A6D31 /* NGLMaterial.h in Headers */,
+				CFAE0931BC4C7BC22ED6264A4FAEDE43 /* NGLMaterialMulti.h in Headers */,
+				7A9BB1EF4878D82978538A56D8401447 /* NGLMath.h in Headers */,
+				2795D13061E67C839BAC3841C924DF29 /* NGLMatrix.h in Headers */,
+				2111C618400F2334E004986D17451B11 /* NGLMesh.h in Headers */,
+				B3E098E751E4192C08367E05C6F4E807 /* NGLMeshElements.h in Headers */,
+				611CA8678EE01D7C7F0BF1C9DF069058 /* NGLObject3D.h in Headers */,
+				ED19A5BACBFB511D29711DAE455059EE /* NGLParserDAE.h in Headers */,
+				3BE8CC97CAF97D116B874D48FA440F14 /* NGLParserImage.h in Headers */,
+				7B10DB7B7106AEB376D0FFED960323D6 /* NGLParserMesh.h in Headers */,
+				7E29CC85752B737D347D46859990C478 /* NGLParserMTL.h in Headers */,
+				9EAFD2EC30668896D7A042E2BB55EC71 /* NGLParserNGL.h in Headers */,
+				221767D40971ED70422B07F4F151C843 /* NGLParserOBJ.h in Headers */,
+				EB2B88EBDEFE868A785189CD1E15A3F4 /* NGLQuaternion.h in Headers */,
+				EB58942EA54C04BDF682DE8993139DA5 /* NGLRegEx.h in Headers */,
+				DA2077B0C90636652CAF8AE82C46F78A /* NGLRuntime.h in Headers */,
+				0CBBE58F82B7A59374974FDB8DFAC3AF /* NGLShaders.h in Headers */,
+				8096A7FD2990A0B48619AC42B2C566F0 /* NGLShadersMulti.h in Headers */,
+				261BE8B2136BAEA17946B8BDB05DDEB4 /* NGLSLConstructor.h in Headers */,
+				71EA88B49B0C58BA1113445BD428F179 /* NGLSLSource.h in Headers */,
+				7CDD7F3037ACF9B7825219367AF1EEE7 /* NGLSLVariables.h in Headers */,
+				9A3567A92D813FEA6C03766FA85342E8 /* NGLSurface.h in Headers */,
+				EED057ED6A31C575DF95CB724F46D34E /* NGLSurfaceMulti.h in Headers */,
+				E8ACF99D721DD18922F0B429DD70643F /* NGLTexture.h in Headers */,
+				19A4635C4BD0D5DB48326B24B52900AD /* NGLThread.h in Headers */,
+				14B85FCCC24B65471044F5E493C36615 /* NGLTimer.h in Headers */,
+				C36F985E5936478CA82289FD11DBAB38 /* NGLTween.h in Headers */,
+				49F20F4D8067B7E0F389EEF7CDA3FFF5 /* NGLVector.h in Headers */,
+				82B6B2563C69F8402338AB7D1FB265B6 /* NGLView.h in Headers */,
+				5A81F208F24A449B03C0B666E4D72C55 /* NinevehGL-umbrella.h in Headers */,
+				336837EA9537BECF6F0EB956DAC59DCC /* NinevehGL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		500A497AA506658E7997171BF4B3358B /* Pods-3DRender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D371AF04D27086BFA1ADFED09AEE522 /* Build configuration list for PBXNativeTarget "Pods-3DRender" */;
+			buildPhases = (
+				581707D0DF2C120213756F6D6AD71C43 /* Sources */,
+				60B930ADA258A84B9E5441E0441D4CAD /* Frameworks */,
+				6592B5F06C69CE1D195EA35A6B498F00 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-3DRender";
+			productName = "Pods-3DRender";
+			productReference = 7638B5A033B2BBD7CDE814F1B0D6CA11 /* Pods_3DRender.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7BA1C5B6D7F9797ABDEC63CB2C8CDEC0 /* Pods-3DRenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49BE3F516036990D74E4634F11FE7FD6 /* Build configuration list for PBXNativeTarget "Pods-3DRenderTests" */;
+			buildPhases = (
+				E95341281EEDD006C57D2D543DC01F2D /* Sources */,
+				A10A5F7A79FD7305F53712E809FB1B4E /* Frameworks */,
+				80CAC902EE67E686D3385860F10A815A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C6E5E3AC96A5CE49E3436D22CB1B78F /* PBXTargetDependency */,
+			);
+			name = "Pods-3DRenderTests";
+			productName = "Pods-3DRenderTests";
+			productReference = C87EF66115E9B848D33E7BE005B6DB19 /* Pods_3DRenderTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB98712A395EADDFBF241562FAD9365D /* NinevehGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21278DDAE3B5A363B4580FACDA9D30AB /* Build configuration list for PBXNativeTarget "NinevehGL" */;
+			buildPhases = (
+				ED3039BC3D5BA697C8C5063CDCC67878 /* Sources */,
+				6E801EF55296B91B220F44F05DCD8E89 /* Frameworks */,
+				AEC2F15DF0DFC48F251872C2F354F599 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NinevehGL;
+			productName = NinevehGL;
+			productReference = 118F30A16195C1227FAEB1C1F884B1EE /* NinevehGL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 09AE93C03806368F91E2688188DC89DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB98712A395EADDFBF241562FAD9365D /* NinevehGL */,
+				500A497AA506658E7997171BF4B3358B /* Pods-3DRender */,
+				7BA1C5B6D7F9797ABDEC63CB2C8CDEC0 /* Pods-3DRenderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		581707D0DF2C120213756F6D6AD71C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24D37A731F67696AF51224A38F1EC96 /* Pods-3DRender-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95341281EEDD006C57D2D543DC01F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF377D97C0442D598EE261BCA0EDCBB /* Pods-3DRenderTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3039BC3D5BA697C8C5063CDCC67878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222ECABBBFD936EE4CAD1C9F45E769CF /* NGLArray.m in Sources */,
+				AB6F25A0D73C3FD926C24BBDB3669538 /* NGLBoundingBox.m in Sources */,
+				6CFED04ED704499D52ADF37E5E5423B2 /* NGLCamera.m in Sources */,
+				010BB73D3C71D0C8F25533A6676AD4AC /* NGLContext.m in Sources */,
+				F85EA16C0480B7BBF43942FF8618EFB5 /* NGLDebug.m in Sources */,
+				5B503E4A79F9E5A406B43E30D045C742 /* NGLEase.m in Sources */,
+				50B08D6C413AB7719A22075401AA021C /* NGLError.m in Sources */,
+				8DBB1EFBBE50EBBA0F7DB78A30B53FB2 /* NGLES2Buffers.m in Sources */,
+				A3BC56F001DF5E2B6D4791B8BC0ACF1B /* NGLES2Engine.m in Sources */,
+				781BA80DA315D3A65796B5D9013B2101 /* NGLES2Functions.m in Sources */,
+				C3ED9E18DE30F572861E1362D2156EEB /* NGLES2Mesh.m in Sources */,
+				FB2269B0F81A2199E8C53E70FA85BF3A /* NGLES2Polygon.m in Sources */,
+				DC5450E0DBA06BF2DA46C2645EC8C35B /* NGLES2Program.m in Sources */,
+				138DCFFEC56228DF0CA86FFE66B9E676 /* NGLES2Textures.m in Sources */,
+				63770D90DD6BDC5239762427047EB06E /* NGLFog.m in Sources */,
+				B8CBBF2AFF7596B085349942952C968B /* NGLFunctions.m in Sources */,
+				23D2D5398569D7D0CD06165AC65836EE /* NGLGestures.m in Sources */,
+				663CDA2553716C21BDEDA112E303F953 /* NGLGlobal.m in Sources */,
+				6E6112374A8AFF30300637FE26BDF7E4 /* NGLGroup3D.m in Sources */,
+				2D3DCE79C177D218C11EBD09978C2656 /* NGLLight.m in Sources */,
+				E58A55071919DF0F4E8397328D99CB8D /* NGLMaterial.m in Sources */,
+				A4D953ABE35CBBADB22654BD3CD45D30 /* NGLMaterialMulti.m in Sources */,
+				E25E72C79E2CA89D8F89F3964879108B /* NGLMath.m in Sources */,
+				A8A306849F6E8EDE8F69E0A5EE8920DE /* NGLMatrix.m in Sources */,
+				993DD8183580DD72F6FC56F6E6CB01C8 /* NGLMesh.m in Sources */,
+				E3DB151D230BD41568FF2894729873CE /* NGLMeshElements.m in Sources */,
+				A61990BBFA6368DB02D7E1BF857DC131 /* NGLObject3D.m in Sources */,
+				307190EDD97697DA5B63C1B0AD59E42A /* NGLParserDAE.m in Sources */,
+				6BEE1B0DF3A35A23C8651F103B491680 /* NGLParserImage.m in Sources */,
+				4833768BCC718B0DA89DF8343462CC62 /* NGLParserMesh.m in Sources */,
+				C6CFD9BC1017CCA613AF5BCC30821A31 /* NGLParserMTL.m in Sources */,
+				4188EF93B2CBF8EC0C918FFF4BA7F362 /* NGLParserNGL.m in Sources */,
+				F4A3F977586E77751D330510FBB50FC0 /* NGLParserOBJ.m in Sources */,
+				29AE5376438D8AB9FDA263EC325C1CDF /* NGLQuaternion.m in Sources */,
+				9D5C317667735CA991EE1EE99D3C7517 /* NGLRegEx.m in Sources */,
+				356E3292C48F7B16679878AC4D32AC7E /* NGLShaders.m in Sources */,
+				FD8E5AB129DF5D8E1D1209724F5D1C2F /* NGLShadersMulti.m in Sources */,
+				56075F1746604C1F04039E1AAC29F233 /* NGLSLConstructor.m in Sources */,
+				EA6407AC68C1C7635D3944AAC35091FB /* NGLSLSource.m in Sources */,
+				02E2E7B17E66614F3F2A20D65FF25D3C /* NGLSLVariables.m in Sources */,
+				A0AC02FBE699875780628B1F26B941E0 /* NGLSurface.m in Sources */,
+				99CE9E2DF71BF59701B7417D5B87FB7D /* NGLSurfaceMulti.m in Sources */,
+				5288A31108328E53F4BE5F4B074220AC /* NGLTexture.m in Sources */,
+				F9B9543F1265D77FA4C35B1AC3D7529E /* NGLThread.m in Sources */,
+				7D827959B48327A76E91507034DA711C /* NGLTimer.m in Sources */,
+				CDB7B49545984D3687731F46F5113C2F /* NGLTween.m in Sources */,
+				E6974EC4CA9B5805A3474A5F35C7A223 /* NGLVector.m in Sources */,
+				D6077C51CC38B9619C290F525FDC3B33 /* NGLView.m in Sources */,
+				60E028F2665C1F35B90D295D99445FE1 /* NinevehGL-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C6E5E3AC96A5CE49E3436D22CB1B78F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NinevehGL;
+			target = EB98712A395EADDFBF241562FAD9365D /* NinevehGL */;
+			targetProxy = 3E30092DC7578F3443E982354BB9EF2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1311CF3FDB59EEC4271A4BEFA98E76F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEE6473C514F841CAF95C3E500C5264A /* Pods-3DRender.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-3DRender/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-3DRender/Pods-3DRender.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_3DRender;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		738AA3341780496DED348507E047AFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41E6B18718AA62CE7CBA70D2515F600 /* NinevehGL.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NinevehGL/NinevehGL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NinevehGL/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NinevehGL/NinevehGL.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NinevehGL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E0E30D3430CF969189B6471978A44F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C8CB5B658CF4B6BFF6CE405DF1CAF99 /* Pods-3DRenderTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-3DRenderTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-3DRenderTests/Pods-3DRenderTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_3DRenderTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C694DD73B41475AE9EF636595B88EC8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCB339A73C487D40AA0D58A94ADFC8A3 /* Pods-3DRender.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-3DRender/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-3DRender/Pods-3DRender.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_3DRender;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E633E52B44AB9727D7577C09257D6BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38CEE614AEECA838EAC9B40F87277757 /* Pods-3DRenderTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-3DRenderTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-3DRenderTests/Pods-3DRenderTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_3DRenderTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDF762F0A282C0757413AD82D1900111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41E6B18718AA62CE7CBA70D2515F600 /* NinevehGL.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NinevehGL/NinevehGL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NinevehGL/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NinevehGL/NinevehGL.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NinevehGL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21278DDAE3B5A363B4580FACDA9D30AB /* Build configuration list for PBXNativeTarget "NinevehGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738AA3341780496DED348507E047AFEB /* Debug */,
+				EDF762F0A282C0757413AD82D1900111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49BE3F516036990D74E4634F11FE7FD6 /* Build configuration list for PBXNativeTarget "Pods-3DRenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E633E52B44AB9727D7577C09257D6BDC /* Debug */,
+				8E0E30D3430CF969189B6471978A44F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D371AF04D27086BFA1ADFED09AEE522 /* Build configuration list for PBXNativeTarget "Pods-3DRender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1311CF3FDB59EEC4271A4BEFA98E76F2 /* Debug */,
+				C694DD73B41475AE9EF636595B88EC8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

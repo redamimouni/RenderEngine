@@ -1,0 +1,6 @@
+framework module NinevehGL {
+  umbrella header "NinevehGL-umbrella.h"
+
+  export *
+  module * { export * }
+}
