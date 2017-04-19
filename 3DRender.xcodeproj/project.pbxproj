@@ -15,6 +15,9 @@
 		ABAB4FB41EA75210009FFC7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABAB4FB31EA75210009FFC7B /* Assets.xcassets */; };
 		ABAB4FB71EA75210009FFC7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAB4FB51EA75210009FFC7B /* LaunchScreen.storyboard */; };
 		ABAB4FC21EA75211009FFC7B /* _DRenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB4FC11EA75211009FFC7B /* _DRenderTests.swift */; };
+		ABAB4FD11EA755F3009FFC7B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAB4FD01EA755F3009FFC7B /* QuartzCore.framework */; };
+		ABAB4FD31EA75603009FFC7B /* NinevehGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAB4FD21EA75603009FFC7B /* NinevehGL.framework */; };
+		ABAB4FD51EA75671009FFC7B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAB4FD41EA75671009FFC7B /* OpenGLES.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,10 @@
 		ABAB4FBD1EA75211009FFC7B /* 3DRenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DRenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABAB4FC11EA75211009FFC7B /* _DRenderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DRenderTests.swift; sourceTree = "<group>"; };
 		ABAB4FC31EA75211009FFC7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABAB4FCC1EA754CA009FFC7B /* 3DRender-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3DRender-Bridging-Header.h"; sourceTree = "<group>"; };
+		ABAB4FD01EA755F3009FFC7B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ABAB4FD21EA75603009FFC7B /* NinevehGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NinevehGL.framework; path = "../../../../Library/Developer/Xcode/DerivedData/3DRender-grgmoqcoevuvungtppkrxqgtrjsa/Build/Products/Debug-iphonesimulator/NinevehGL/NinevehGL.framework"; sourceTree = "<group>"; };
+		ABAB4FD41EA75671009FFC7B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		C98AB734228B966A7AA61C04 /* Pods-3DRender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3DRender.debug.xcconfig"; path = "Pods/Target Support Files/Pods-3DRender/Pods-3DRender.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,6 +58,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABAB4FD51EA75671009FFC7B /* OpenGLES.framework in Frameworks */,
+				ABAB4FD31EA75603009FFC7B /* NinevehGL.framework in Frameworks */,
+				ABAB4FD11EA755F3009FFC7B /* QuartzCore.framework in Frameworks */,
 				411DD5376CC706595DE06AFF /* Pods_3DRender.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,6 +79,9 @@
 		054CADE50BCD0E06A549DAAB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ABAB4FD41EA75671009FFC7B /* OpenGLES.framework */,
+				ABAB4FD21EA75603009FFC7B /* NinevehGL.framework */,
+				ABAB4FD01EA755F3009FFC7B /* QuartzCore.framework */,
 				7984C2C9D231B95F6343A3DC /* Pods_3DRender.framework */,
 				51FF9B4DE2BE0A566E632B52 /* Pods_3DRenderTests.framework */,
 			);
@@ -104,6 +117,7 @@
 				ABAB4FB31EA75210009FFC7B /* Assets.xcassets */,
 				ABAB4FB51EA75210009FFC7B /* LaunchScreen.storyboard */,
 				ABAB4FB81EA75210009FFC7B /* Info.plist */,
+				ABAB4FCC1EA754CA009FFC7B /* 3DRender-Bridging-Header.h */,
 			);
 			path = 3DRender;
 			sourceTree = "<group>";
@@ -184,6 +198,7 @@
 					ABAB4FA81EA75210009FFC7B = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 7MA98J2NRQ;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					ABAB4FBC1EA75211009FFC7B = {
@@ -474,11 +489,14 @@
 			baseConfigurationReference = C98AB734228B966A7AA61C04 /* Pods-3DRender.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7MA98J2NRQ;
 				INFOPLIST_FILE = 3DRender/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.octo.renderengine.-DRender";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "3DRender/3DRender-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -488,11 +506,13 @@
 			baseConfigurationReference = 1EE0C89C24D860E6309F0768 /* Pods-3DRender.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7MA98J2NRQ;
 				INFOPLIST_FILE = 3DRender/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.octo.renderengine.-DRender";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "3DRender/3DRender-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -548,6 +568,7 @@
 				ABAB4FC81EA75211009FFC7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABAB4FC91EA75211009FFC7B /* Build configuration list for PBXNativeTarget "3DRenderTests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +577,7 @@
 				ABAB4FCB1EA75211009FFC7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -6,10 +6,10 @@ target '3DRender' do
   use_frameworks!
 
   # Pods for 3DRender
+  pod "NinevehGL"
 
   target '3DRenderTests' do
     inherit! :search_paths
-	pod "NinevehGL"
     # Pods for testing
   end
 
