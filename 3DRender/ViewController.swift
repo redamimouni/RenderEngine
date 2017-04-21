@@ -9,7 +9,7 @@
 import UIKit
 import NinevehGL
 
-class ViewController: UIViewController, NGLViewDelegate{
+class ViewController: UIViewController, NGLViewDelegate, NGLMeshDelegate{
   
   var mesh = NGLMesh()
   var camera = NGLCamera()
@@ -23,15 +23,21 @@ class ViewController: UIViewController, NGLViewDelegate{
    *					correspondent NGLView.
    */
   func drawView() {
-    
+    mesh.rotateY += 2
+    camera.draw()
   }
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    
-    mesh = NGLMesh(file: "back_flip_to_uppercut.dae", settings: [kNGLMeshCentralizeYes: kNGLMeshKeyCentralize, "0.3": kNGLMeshKeyNormalize], delegate: nil)
+    let view = self.view as! NGLView
+    view.delegate = self
+    mesh = NGLMesh(file: "untitled.obj", settings: [kNGLMeshKeyOriginal: kNGLMeshOriginalYes,
+                                                    kNGLMeshKeyCentralize: kNGLMeshCentralizeYes,
+                                                    kNGLMeshKeyNormalize: 0.8], delegate: self)
+    mesh.material = NGLMaterial.materialEmerald() as! NGLMaterialProtocol
     camera.add(mesh)
     camera.autoAdjustAspectRatio(true, animated: true)
+    NGLDebug.debugMonitor().start(with: self.view as! NGLView!)
   }
 
   override func didReceiveMemoryWarning() {

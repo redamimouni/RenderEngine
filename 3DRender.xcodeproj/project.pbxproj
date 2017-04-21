@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		411DD5376CC706595DE06AFF /* Pods_3DRender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7984C2C9D231B95F6343A3DC /* Pods_3DRender.framework */; };
 		78BE25555FEBD802302F6D4C /* Pods_3DRenderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FF9B4DE2BE0A566E632B52 /* Pods_3DRenderTests.framework */; };
+		AB3355371EA791E000069E13 /* untitled.dae in Resources */ = {isa = PBXBuildFile; fileRef = AB3355361EA791E000069E13 /* untitled.dae */; };
+		AB3355391EA7AD7700069E13 /* Cartoon_Female_capris_2k_diffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = AB3355381EA7AD7700069E13 /* Cartoon_Female_capris_2k_diffuse.png */; };
 		ABAB4FAD1EA75210009FFC7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB4FAC1EA75210009FFC7B /* AppDelegate.swift */; };
 		ABAB4FAF1EA75210009FFC7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB4FAE1EA75210009FFC7B /* ViewController.swift */; };
 		ABAB4FB21EA75210009FFC7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAB4FB01EA75210009FFC7B /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 		51FF9B4DE2BE0A566E632B52 /* Pods_3DRenderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_3DRenderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B5F8F0BAD460A87CCF412F9 /* Pods-3DRenderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3DRenderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-3DRenderTests/Pods-3DRenderTests.release.xcconfig"; sourceTree = "<group>"; };
 		7984C2C9D231B95F6343A3DC /* Pods_3DRender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_3DRender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3355361EA791E000069E13 /* untitled.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; name = untitled.dae; path = Resources/untitled.dae; sourceTree = "<group>"; };
+		AB3355381EA7AD7700069E13 /* Cartoon_Female_capris_2k_diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cartoon_Female_capris_2k_diffuse.png; path = Resources/Cartoon_Female_capris_2k_diffuse.png; sourceTree = "<group>"; };
 		ABAB4FA91EA75210009FFC7B /* 3DRender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DRender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABAB4FAC1EA75210009FFC7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABAB4FAE1EA75210009FFC7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -156,7 +160,9 @@
 		ABAB4FD81EA764D7009FFC7B /* 3D files */ = {
 			isa = PBXGroup;
 			children = (
+				AB3355361EA791E000069E13 /* untitled.dae */,
 				ABAB4FD91EA764EB009FFC7B /* back_flip_to_uppercut.dae */,
+				AB3355381EA7AD7700069E13 /* Cartoon_Female_capris_2k_diffuse.png */,
 			);
 			name = "3D files";
 			sourceTree = "<group>";
@@ -267,6 +273,8 @@
 				ABAB4FDC1EA76515009FFC7B /* Cartoon_Female_capris_2k_diffuse.png in Resources */,
 				ABAB4FDA1EA764EB009FFC7B /* back_flip_to_uppercut.dae in Resources */,
 				ABAB4FB41EA75210009FFC7B /* Assets.xcassets in Resources */,
+				AB3355371EA791E000069E13 /* untitled.dae in Resources */,
+				AB3355391EA7AD7700069E13 /* Cartoon_Female_capris_2k_diffuse.png in Resources */,
 				ABAB4FB21EA75210009FFC7B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
